@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes pulse-green {
+    0% {
+    }
+    50% {
+        background-color: rgba(80, 176, 80, 1);
+    }
+    100% {
+    }
+}
+
+.pulse-green {
+    animation: pulse-green 1s;
+}
+
+@keyframes pulse-red {
+    0% {
+    }
+    50% {
+        background-color: rgba(224, 48, 48, 1);
+    }
+    100% {
+    }
+}
+
+.pulse-red {
+    animation: pulse-red 1s;
+}
+
+.header {
+    border: solid black;
+    border-width: 0 0 1px 0;
+    padding: 1em;
+
+    .streak {
+        /*text-align: right;*/
+
+        .label {
+        }
+
+        .value {
+
+        }
+    }
+}
+
+.problem {
+    margin: 0;
+    padding: 0.66em;
+    font-size: 1.5em;
+
+    p {
+        margin: 0 0 .5em 0;
+    }
+
+    .a {
+
+    }
+
+    .op {
+
+    }
+
+    .b {
+
+    }
+
+    .eq {
+
+    }
+
+    form {
+        margin: 0;
+    }
+
+    input, button {
+        font-size: 1em;
+    }
+
+    input {
+        width: 100%;
+    }
+}
